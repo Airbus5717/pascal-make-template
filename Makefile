@@ -1,6 +1,6 @@
 .PHONY: build
 
-SRC = src/*.pas
+SRC = src/main.lpr
 OUT = main
 
 FPC = fpc
