@@ -12,8 +12,6 @@ build: ./bin
 ./bin:
 	@mkdir -p ./bin
 
-clean: clean_obj
-	@rm -rf ./bin/$(OUT)
+clean: 
+	@rm -rf ./bin/*
 
-clean_obj:
-	@rm -rf ./bin/*.o

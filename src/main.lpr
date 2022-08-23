@@ -1,4 +1,5 @@
-Program main;
+Program main_loader;
+uses code;
 Begin
-  writeln('Hello, World');
+    main;
 End.
